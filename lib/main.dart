@@ -15,6 +15,7 @@ class App extends StatelessWidget {
     AppSettings.screenWidth = MediaQuery.of(context).size.width;
     AppSettings.screenHeight = MediaQuery.of(context).size.height;
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Santander Dev Week',
       theme: ThemeData(
         textTheme: GoogleFonts.openSansTextTheme(Theme.of(context).textTheme),
